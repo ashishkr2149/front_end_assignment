@@ -1,0 +1,336 @@
+.body-container{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    margin: calc(100vw * (48/1440)) 0px 0px 0px;
+}
+
+.unlock-container{
+    padding: 0px 144px 0px 144px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.unlock-body{
+    width: calc(100vw * (661/1440));
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: center;
+}
+
+.unlock-body-content{
+    width: calc(100vw * (601/1440));
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.unlock-body-content-title{
+    font-size: calc(100vw * (36/1440));
+    font-weight: 600;
+    line-height: calc(100vw * (44/1440));
+    text-align: left;
+    color: #4D4D4D;
+}
+
+.unlock-body-content-desc{
+    font-size: calc(100vw * (14/1440));
+    font-weight: 400;
+    line-height: 20calc(100vw * (20/1440))px;
+    text-align: left;    
+    color: #717171;
+}
+
+.unlock-button {
+    padding: 14px 32px;
+    border-radius: 4px;
+    background: #4CAF4F;
+    color: #FFFFFF;
+    font-weight: 500;
+    align-self: flex-start;
+}
+
+.achievements-container{
+    background: #F5F7FA;
+    display: flex;
+    padding: 64px 144px 64px 144px;
+    justify-content: space-between;
+}
+
+.achievements-body{
+    display: flex   ;
+    width: calc(100vw * (540/1440));
+    gap: 8px;
+    flex-direction: column;
+}
+
+.achievements-body-header{
+    font-weight: 600;
+    font-size: calc(100vw * (36/1440));
+}
+
+.achievements-body-header > div:nth-child(1){
+    color: #4D4D4D;
+}
+
+.achievements-body-header > div:nth-child(2){
+    color: #4CAF4F;
+}
+
+.achievements-body-desc{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    color: #717171;
+}
+
+.achievements-count{
+    display: flex;
+    flex-direction: column;
+    gap: calc(100vw * (40/1440));
+}
+
+.achievements-count-row{
+    display: flex;
+    gap: calc(100vw * (30/1440));
+}
+
+.achievements-count-column{
+    display: flex;
+    gap: 16px;
+}
+
+.achievements-count-details-number{
+    width: 191px;
+    height: 36px;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+}
+
+.calendar-container{
+    display: flex;
+    padding: 0px 144px 0px 144px;
+    justify-content: space-between;
+}
+
+.calendar-body{
+    width: calc(100vw * (661/1440));
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: center;
+}
+
+.calendar-body-content{
+    width: calc(100vw * (601/1440));
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.calendar-body-content-title{
+    font-size: calc(100vw * (36/1440));
+    font-weight: 600;
+    line-height: calc(100vw * (44/1440));
+    text-align: left;
+    color: #4D4D4D;
+}
+
+.calendar-body-content-desc{
+    font-size: calc(100vw * (14/1440));
+    font-weight: 400;
+    line-height: 20calc(100vw * (20/1440))px;
+    text-align: left;    
+    color: #717171;
+}
+
+.calendar-button {
+    padding: 14px 32px;
+    border-radius: 4px;
+    background: #4CAF4F;
+    color: #FFFFFF;
+    font-weight: 500;
+    align-self: flex-start;
+}
+
+.customers-container{
+    display: flex;
+    padding: 32px 144px 32px 144px;
+    gap: 78px;
+    background: #F5F7FA;
+}
+
+.customers-body{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.customers-body-content{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.customers-body-content-body{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #717171;
+}
+
+.customers-body-content-details{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.customers-body-content-details-name{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color: #4CAF4F;
+}
+
+.customers-body-content-details-org{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #89939E;
+}
+
+.customers-body-gallery{
+    display: flex;
+    gap: 32px;
+}
+
+.customers-body-logos{
+    display: flex;
+    gap: 41px;  
+}
+
+.customers-body-logos div {
+    display: inline-block;
+}
+
+.customers-body-all{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    gap: 8px;   
+    width: 223px;
+}
+
+.customers-body-all-body {
+    height: 28px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color: #4CAF4F;
+    position: relative;
+    display: flex;
+    align-content: center;
+}
+
+.customers-body-all img {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.community-updates-container{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.community-updates-body{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 8px
+}
+
+.community-updates-body-title{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: center;
+    color: #4D4D4D;
+}
+
+.community-updates-body-desc{
+    width: 628px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #717171;    
+}
+
+.community-updates-tiles{
+    display: flex;
+    padding: 0px 144px 0px 144px;
+    gap: 0px;
+    justify-content: space-between;
+}
+
+.community-updates-tile{
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.community-updates-tile-body{
+    background: #F5F7FA;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+    border-radius: 8px;    
+    box-shadow: 0px 8px 16px 0px #ABBED166;
+    transform: translateY(-50%);
+}
+
+.community-updates-tile-body-desc{
+    width: 285px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: center;
+    color: #717171;
+}
+
+.community-updates-tile-body-extra{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    gap: 8px;   
+}
+
+.ccommunity-updates-tile-body-extra-body {
+    height: 28px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #4CAF4F;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.community-updates-tile-body-extra > div {
+    display: flex;
+    justify-content: center;
+}

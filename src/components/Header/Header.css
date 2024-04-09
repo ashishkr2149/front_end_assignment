@@ -1,0 +1,51 @@
+.header-container {
+    width: 100%;
+    height: calc(100vw * (84 / 1440));
+    /* height: 84px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #F5F7FA;
+}
+
+.logo{
+    opacity: 0px;
+
+}
+
+.header-menu{
+    display: flex;
+    justify-content: space-around;
+    height: calc(100vw * (24 / 1440));
+    width: calc(100vw * (588 / 1440));
+}
+
+.menu{
+    font-weight: 400;
+    align-content: center;
+}
+
+.home{
+    font-weight: 500;
+}
+
+.login-options{
+    font-weight: 500;
+}
+
+.login{
+    padding: 10px 20px 10px 20px;
+    gap: 10px;
+    border-radius: 6px;
+    opacity: 0px;
+    color: #4CAF4F;
+}
+
+.signUp{
+    padding: 10px 20px 10px 20px;
+    gap: 10px;
+    border-radius: 6px;
+    opacity: 0px;
+    background: #4CAF4F;
+    color: #FFF;
+}
